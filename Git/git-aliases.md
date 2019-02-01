@@ -10,3 +10,5 @@ git config --global alias.ci commit
 git config --global alias.put "push -u origin HEAD"
 git config --global alias.rhu "reset --hard origin/HEAD"
 git config --global alias.hist "log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short"
+
+git config --global alias.alias "config --get-regexp ^alias\."
