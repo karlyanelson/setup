@@ -1,8 +1,8 @@
-alias.co=checkout
-alias.st=status
-alias.mod=merge origin/dev
-alias.put=push -u origin HEAD
-alias.pushdev=push origin HEAD:dev
-alias.ci=commit
-alias.hist=log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
-alias.rhu=reset --hard origin/HEAD
+git config --global alias.co checkout
+git config --global alias.st status
+git config --global alias.mod merge origin/dev
+git config --global alias.put push -u origin HEAD
+git config --global alias.pushdev push origin HEAD:dev
+git config --global alias.ci commit
+git config --global alias.hist log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+git config --global alias.rhu reset --hard origin/HEAD
