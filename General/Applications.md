@@ -25,6 +25,8 @@
 - Atom
 - Automator
 - Backup and Sync from Google
+- BookWright 
+    - Free from blurb: https://www.blurb.com/bookwright-install-mac?platform=MacOS&bwversion=1.4.3&download=true
 - e Focused
 - Calculator
 - Calendar
