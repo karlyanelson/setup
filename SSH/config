@@ -1,6 +1,7 @@
 # Personal github account
 Host github.com
 	HostName github.com
+  PreferredAuthentications publickey
 	User git
   UseKeychain yes
   AddKeysToAgent yes
@@ -10,8 +11,11 @@ Host github.com
 # [***] github account
 Host github.com-[***]
 	HostName github.com
+  PreferredAuthentications publickey
 	User git
   UseKeychain yes
   AddKeysToAgent yes
 	IdentityFile ~/.ssh/id_rsa_[***]
   IdentitiesOnly yes
+
+Host * AddKeysToAgent yes UseKeychain yes
