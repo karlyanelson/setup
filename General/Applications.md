@@ -30,6 +30,8 @@
 - e Focused
 - Calculator
 - Calendar
+- Camera Settings
+    - From Logitech for my C930c webcam https://support.logi.com/hc/en-us/articles/360049055854
 - Chess
 - Cisco
 - Cisco Proximity
